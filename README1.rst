@@ -32,8 +32,8 @@ Compiling Arduino 1.5.x
 
 - Unzip the source and cd to Arduino-master/build
 
-- Make the following changes to build.xml file
-   ::
+- Make the following changes to build.xml file::
+   
     1. Remove the "check os" dependency in linux32 target
     2. Remove the "build" dependency in linux-dist target.
 
@@ -58,7 +58,7 @@ Compiling Micronucleus and Avr-dummy
 
 - Compile the micronucleus commandline tool (commandline directory) and avr-dummy ("make all" for both) - which will produce executables named micronucleus and avrdude 
 
-- Copy the digistump folder from this Digistump repo  to Arduino-master/build/linux/work/hardware. 
+- Copy the digistump folder from Digistump repo  to Arduino-master/build/linux/work/hardware. 
 
 - Copy micronucleus and avrdude executables to the Arduino-master/build/linux/work/hardware/digistump/avr/tools.
 
@@ -66,14 +66,16 @@ Compiling Micronucleus and Avr-dummy
 
 Compiling Avr-tool chain
 ************************
-
+ ::
 - git clone git://github.com/arduino/toolchain-avr
 
 - sudo apt-get install build-essential gperf bison subversion texinfo zip automake flex libusb-dev libusb-1.0-0-dev libtinfo-dev pkg-config
 - cd toolchain-avr
 - ./build.all.bash
+
 - output gives avr and avrdude-x.x.x directories
-- before copying toolchain compiled for arm,need to remove the tool chain already downloded for for x86 by build.xml in Arduino-master/build/linux/work/hardware/tools/avr/  *except* the **builtin_tools_versions.txt**
+- before copying toolchain compiled for arm,need to remove the tool chain already downloded for for x86 by build.xml in Arduino-master/build/linux/work/hardware/tools/avr/  **except** the **builtin_tools_versions.txt**
+::
 - copy the toolchain-avr/avr/*  to Arduino-master/build/linux/work/hardware/tools/avr/
 - copy the avrdude-x.x.x/bin/* to Arduino-master/build/linux/work/hardware/tools/avr/bin/
 - copy the avrdude-x.x.x/lib/* to Arduino-master/build/linux/work/hardware/tools/avr/lib/
