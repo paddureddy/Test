@@ -70,8 +70,8 @@ Embedded hyperlinks:
 External hyperlinks, like `Python <http://www.python.org/>`_.
 
 
-Source locations for reStruredText(README.rst)
-- here_ .. :http://docutils.sourceforge.net/docs/user/rst/quickref.html#example-foldin
-- here_ .. :https://pythonhosted.org/an_example_pypi_project/sphinx.html#table-of-contents
+**Source locations for reStruredText(README.rst)**
+- This_  :http://docutils.sourceforge.net/docs/user/rst/quickref.html#example-foldin
+- Andthis_  :https://pythonhosted.org/an_example_pypi_project/sphinx.html#table-of-contents
  
 
