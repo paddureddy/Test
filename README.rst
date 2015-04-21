@@ -73,7 +73,7 @@ External hyperlinks, like `Python <http://www.python.org/>`_.
 Source locations for reStruredText(README.rst)
 ++++++++++++++++++++++++++++++++++++++++++++++++++
 
-- First_  :http://docutils.sourceforge.net/docs/user/rst/quickref.html#example-foldin
+- This_. This: http://docutils.sourceforge.net/docs/user/rst/quickref.html#example-foldin
 - `Andthis <https://pythonhosted.org/an_example_pypi_project/sphinx.html#table-of-contents/>`_.
  
 
