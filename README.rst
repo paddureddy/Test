@@ -6,10 +6,10 @@ Subtitle
 **bold** and *italics*
 
 
-|This is to inform you fool
-|ahgsdwhjbd sfyueiuwsf iefhwef f
-|\vnjedsbfjekf e
-|kfnewkf
+| This is to inform you fool
+| ahgsdwhjbd sfyueiuwsf iefhwef f
+| \vnjedsbfjekf e
+| kfnewkf
 
 Bullet list:
 ----------------
@@ -17,9 +17,9 @@ Bullet list:
 - This is item 1
 - this is item 2
 - this is item 3
-|hsdbjds kj dbdnwbdswkusw 
-|sdfdewsf
-|sefewsdf
+| hsdbjds kj dbdnwbdswkusw 
+| sdfdewsf
+| sefewsdf
 
 Enumerated list:
 -------------------
@@ -50,7 +50,7 @@ Literal Blocks
 This is end
 
 This is the start.right now uot mabe at
-ur end but feel free to acces me:
+ur end but feel free to acces me::
               This is you right
               How are you dude
            and yeah.
