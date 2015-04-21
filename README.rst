@@ -57,9 +57,7 @@ you may be fine
 Hyper links Targets
 
 
-External hyperlinks,like python_.
-
-python: http://www.python.org/
+External hyperlinks,like python_. .._python: http://www.python.org/
 
 Embedded hyperlinks:
 -------------------
