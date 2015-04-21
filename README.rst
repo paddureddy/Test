@@ -14,9 +14,9 @@ Subtitle
 Bullet list:
 ----------------
 
-|-This is item 1
-|-this is item 2
-|-this is item 3
+- This is item 1
+- this is item 2
+- this is item 3
 |hsdbjds kj dbdnwbdswkusw 
 |sdfdewsf
 |sefewsdf
@@ -24,10 +24,10 @@ Bullet list:
 Enumerated list:
 -------------------
 
-|3.This is to fool you
-|4.Above is true
-|5. you fool still you not beleiving
-|#. thisi is auto enumerated
+3. This is to fool you
+4. Above is true
+5. you fool still you not beleiving
+#. thisi is auto enumerated
 
 Field Lists
 -----------
@@ -50,7 +50,7 @@ Literal Blocks
 This is end
 
 This is the start.right now uot mabe at
-ur end but feel free to acces me::
+ur end but feel free to acces me:
               This is you right
               How are you dude
            and yeah.
