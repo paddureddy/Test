@@ -1,5 +1,4 @@
-==========
-Title
+Titl
 ==========
 Subtitle
 ----------
@@ -50,16 +49,17 @@ Literal Blocks
 
 This is end
 
-This is the start::
+This is the start ::
   How are you dude
 
 you may be fine
 
-Hyper links Targets:
--------------------
+Hyper links Targets
 
-External hyperlinks like python_.
-.._python: http://www.python.org/
+
+External hyperlinks,like python_.
+
+python: http://www.python.org/
 
 Embedded hyperlinks:
 -------------------
