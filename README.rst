@@ -6,28 +6,28 @@ Subtitle
 **bold** and *italics*
 
 
-This is to inform you fool
-ahgsdwhjbd sfyueiuwsf iefhwef f
-\vnjedsbfjekf e
-kfnewkf
+|This is to inform you fool
+|ahgsdwhjbd sfyueiuwsf iefhwef f
+|\vnjedsbfjekf e
+|kfnewkf
 
 Bullet list:
 ----------------
 
--This is item 1
--this is item 2
--this is item 3
-hsdbjds kj dbdnwbdswkusw 
-sdfdewsf
-sefewsdf
+|-This is item 1
+|-this is item 2
+|-this is item 3
+|hsdbjds kj dbdnwbdswkusw 
+|sdfdewsf
+|sefewsdf
 
 Enumerated list:
 -------------------
 
-3.This is to fool you
-4.Above is true
-5. you fool still you not beleiving
-#. thisi is auto enumerated
+|3.This is to fool you
+|4.Above is true
+|5. you fool still you not beleiving
+|#. thisi is auto enumerated
 
 Field Lists
 -----------
@@ -49,15 +49,18 @@ Literal Blocks
 
 This is end
 
-This is the start ::
-  How are you dude
+This is the start::
+                 This is you right
+              How are you dude.
 
 you may be fine
 
 Hyper links Targets
+%%%%%%%%%%%%%%%%%%%
 
 
-External hyperlinks,like python_. python: http://www.python.org/
+External hyperlinks,like python_. 
+.. _python: http://www.python.org/
 
 Embedded hyperlinks:
 -------------------
