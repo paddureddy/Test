@@ -66,21 +66,22 @@ Compiling Micronucleus and Avr-dummy
 
 Compiling Avr-tool chain
 ************************
-- clone the source::
-  git clone git://github.com/arduino/toolchain-avr
-
-  sudo apt-get install build-essential gperf bison subversion texinfo zip automake flex libusb-dev libusb-1.0-0-dev libtinfo-dev pkg-config
-  cd toolchain-avr
- ./build.all.bash
+- clone the source
+ ::
+  1. git clone git://github.com/arduino/toolchain-avr
+  2. sudo apt-get install build-essential gperf bison subversion texinfo zip automake flex libusb-dev libusb-1.0-0-dev libtinfo-dev pkg-  
+     config
+  3. cd toolchain-avr
+  4. ./build.all.bash
 
 - output gives avr and avrdude-x.x.x directories
 - before copying toolchain compiled for arm,need to remove the tool chain already downloded for for x86 by build.xml in Arduino-master/build/linux/work/hardware/tools/avr/  **except** the **builtin_tools_versions.txt**
-::
- copy the toolchain-avr/avr/*  to Arduino-master/build/linux/work/hardware/tools/avr/
- copy the avrdude-x.x.x/bin/* to Arduino-master/build/linux/work/hardware/tools/avr/bin/
- copy the avrdude-x.x.x/lib/* to Arduino-master/build/linux/work/hardware/tools/avr/lib/
- copy the avrdude-x.x.x/include/* to Arduino-master/build/linux/work/hardware/tools/avr/include/
- copy the avrdude-x.x.x/etc to Arduino-master/build/linux/work/hardware/tools/avr/
+ ::
+ 1. copy the toolchain-avr/avr/*  to Arduino-master/build/linux/work/hardware/tools/avr/
+ 2. copy the avrdude-x.x.x/bin/* to Arduino-master/build/linux/work/hardware/tools/avr/bin/
+ 3. copy the avrdude-x.x.x/lib/* to Arduino-master/build/linux/work/hardware/tools/avr/lib/
+ 4. copy the avrdude-x.x.x/include/* to Arduino-master/build/linux/work/hardware/tools/avr/include/
+ 5. copy the avrdude-x.x.x/etc to Arduino-master/build/linux/work/hardware/tools/avr/
 
 Now your DigistumpArduino is ready at Arduino-master/build/linux/work.Only work directery is needed.
 
