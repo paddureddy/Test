@@ -1,4 +1,4 @@
-Titl
+Title
 ==========
 Subtitle
 ----------
@@ -6,8 +6,8 @@ Subtitle
 **bold** and *italics*
 
 
-| This is to inform you fool
-| ahgsdwhjbd sfyueiuwsf iefhwef f
+| **This is to inform you fool**
+| *ahgsdwhjbd sfyueiuwsf iefhwef f*
 | \vnjedsbfjekf e
 | kfnewkf
 
@@ -32,10 +32,10 @@ Enumerated list:
 Field Lists
 -----------
 :Authors:
-    PAdmakar Reddy ,
-    Sandesh pAti,
+    Padmakar Reddy ,
+    Sandesh pati,
    other good folks
-:version: 1.0 of 2001/08//08
+:version: 1.0 of 2011/08//08
 :Dedication: To my lovingly supreme father Krishna
 
 Literal Blocks
@@ -56,9 +56,9 @@ ur end but feel free to acces me::
            and yeah.
 
 you may be fine
-
+-----------------------------
 Hyper links Targets
-%%%%%%%%%%%%%%%%%%%
++++++++++++++++++++
 
 
 External hyperlinks,like python_. 
